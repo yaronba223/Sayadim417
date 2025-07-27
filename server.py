@@ -4,10 +4,10 @@ import requests
 app = Flask(_name_)
 
 # כאן תכניס את הטוקן שקיבלת מ-BotFather
-TELEGRAM_TOKEN = 8273469629:AAHE5xlBafWCOHxekUQUa6OxSah6fmfCQvI
+TELEGRAM_TOKEN = "8273469629:AAHE5xlBafWCOHxekUQUa6OxSah6fmfCQvI"
 
 # כאן תכניס את ה-CHAT ID שלך (אפשר להשיג דרך https://api.telegram.org/bot<TOKEN>/getUpdates)
-CHAT_ID = 1852389105
+CHAT_ID = "1852389105"
 
 @app.route('/upload', methods=['POST'])
 def upload():
